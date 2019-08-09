@@ -1,0 +1,12 @@
+    .slides .slide .background.vimeo iframe {
+        width: 1280px;
+        height: 720px;
+        position: absolute;
+        top: initial;
+        bottom: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        -webkit-transform-origin: 0%;
+        transform-origin: 0%;
+    }

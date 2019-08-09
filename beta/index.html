@@ -27,6 +27,18 @@
     <!-- Fonts and Material Icons -->
     <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,800|Montserrat:600|Montserrat:500|Material+Icons" />
     <style type="text/css">
+        .slides .slide .background.vimeo iframe {
+        width: 1280px;
+        height: 720px;
+        position: absolute;
+        top: initial;
+        bottom: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        -webkit-transform-origin: 0%;
+        transform-origin: 0%;
+        }
       .slides,
       .slides p {
           font-family: 'Montserrat', sans-serif;
@@ -52,6 +64,11 @@
 </head>
 
 <body class="slides chain smooth horizontal simplifiedMobile  noPreload animated">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXG7BJ6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- SVG Library -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
       <symbol id="logo" viewBox="0 0 231 68">
@@ -172,10 +189,10 @@
                     </svg></a></div>
             <div class="right">
                 <ul class="menu uppercase trim">
-                    <li><a href="#about">Информация</a></li>
-                    <li><a href="#projects">Проекты</a></li>
-                    <li><a href="#events">События</a></li>
-                    <li><a href="#articles">Материалы</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#articles">Articles</a></li>
                     <!-- <li class="cropRight"><a href="http://twitter.com/designmodo" class="trimRight" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li> -->
                 </ul>
             </div>
@@ -195,26 +212,26 @@
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-icon"></use>
                 </svg></a>
             <ul class="mainMenu margin-top-3">
-                <li><a href="#about">Информация</a></li>
-                <li><a href="#projects">Проекты</a></li>
-                <li><a href="#events">События</a></li>
-                <li><a href="#articles">Материалы</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="https://medium.com/@defi.expert" target="_blank">Articles</a></li>
             </ul>
             <ul class="subMenu small opacity-8">
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Terms & Conditions</a></li>
                 <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Contacts</a></li>
             </ul>
             <ul class="social opacity-8">
                 <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
                 <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-                <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+                <li><a href="https://medium.com/@defi.expert"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
             </ul>
         </div>
     </nav>
     <!-- Slide 1 (#03) -->
-    <section data-name="index" data-title="DeFi Expert" class="slide whiteSlide">
+    <section data-name="index" data-title="DeFi Expert" class="slide blackSlide">
         <div class="content">
             <div class="container">
                 <div class="wrap">
@@ -224,12 +241,15 @@
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
                             </svg>
                         </div>
-                        <p class="ae-2 hero cropBottom margin-top-3"><span class="opacity-8">In a meat-eating world, wearing leather for shoes and even clothes, the discussion of fur is&nbsp;childish.</span></p>
+                        <p class="ae-2 hero cropBottom margin-top-3"><span class="opacity-8">Small 'about' text</span></p>
                     <!-- <p class="margin-top-2 ae-3"> <span class="opacity-8"><a href="#projects" class="button rounded uppercase stroke black opacity-8">Explore</a></span></p> -->
 
                     </div>
                 </div>
             </div>
+        </div>
+                <div class="background vimeo">
+            <iframe src="https://player.vimeo.com/video/90036732?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
     </section>
     <!-- Slide 2 (#71) -->
@@ -238,39 +258,42 @@
             <div class="container">
                 <div class="wrap">
                     <div class="fix-10-12">
-                        <h1 class="ae-1 margin-bottom-2">Проекты</h1>
+                        <h1 class="ae-1 margin-bottom-2">Projects</h1>
                         <div class="ae-2">
                             <!-- <p class="hero opacity-8">I’m con­vinced that without bad design, the world would be a far less stim­u­lat­ing place; we would have noth­ing to mar­vel over and noth­ing to be nos­tal­gic&nbsp;about.</p> -->
                         </div>
-                      <a class="stroke  round white cropBottom popupTrigger margin-top-2 margin-bottom-3 ae-3 fromCenter typeform-share button" href="https://ipublishing.typeform.com/to/kw73sf" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-footer=true data-submit-close-delay="1" target="_blank">Добавить проект</a>
+                      <a class="stroke  round white cropBottom popupTrigger margin-top-2 margin-bottom-3 ae-3 fromCenter typeform-share button" href="https://ipublishing.typeform.com/to/kw73sf" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-footer=true data-submit-close-delay="1" target="_blank">Add your project</a>
+
+
+
                     </div>
                     <div class="fix-11-12 margin-top-5">
                         <ul class="grid fixedSpaces equal left grid-71">
                             <li class="col-4-12 ae-3">
                                 <a href="#" class="cell-71 rounded equalElement">
                                     <i class="material-icons">panorama</i>
-                                    <h3>HQ photos</h3>
+                                    <h3>compound.finance</h3>
                                     <p class="tiny opacity-6">Quickly swipe messages to your archive or trash.</p>
                                 </a>
                             </li>
                             <li class="col-4-12 ae-3">
                                 <a href="#" class="cell-71 rounded equalElement">
                                     <i class="material-icons">panorama</i>
-                                    <h3>HQ photos</h3>
+                                    <h3>nuo.network</h3>
                                     <p class="tiny opacity-6">Quickly swipe messages to your archive or trash.</p>
                                 </a>
                             </li>
                             <li class="col-4-12 ae-3">
                                 <a href="#" class="cell-71 rounded equalElement">
                                     <i class="material-icons">panorama</i>
-                                    <h3>HQ photos</h3>
+                                    <h3>dharma.io</h3>
                                     <p class="tiny opacity-6">Quickly swipe messages to your archive or trash.</p>
                                 </a>
                             </li>
                             <li class="col-4-12 ae-3">
                                 <a href="#" class="cell-71 rounded equalElement">
                                     <i class="material-icons">panorama</i>
-                                    <h3>HQ photos</h3>
+                                    <h3>ethfinex.com</h3>
                                     <p class="tiny opacity-6">Quickly swipe messages to your archive or trash.</p>
                                 </a>
                             </li>
@@ -352,94 +375,94 @@
             <div class="container">
                 <div class="wrap padding-top-phablet-5">
                     <div class="fix-10-12 toCenter">
-                        <h1 class="ae-1">Мероприятия</h1>
-                        <div class="button  stroke  round white cropBottom popupTrigger margin-top-2 margin-bottom-3 ae-2 fromCenter" data-popup-id="71-1"><!-- <i class="material-icons small">play_circle_filled</i> -->Добавить мероприятие</div>
+                        <h1 class="ae-1">Events</h1>
+                        <div class="typeform-share button stroke  round white cropBottom popupTrigger margin-top-2 margin-bottom-3 ae-2 fromCenter" href="https://ipublishing.typeform.com/to/NJ6KZB" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-footer=true data-submit-close-delay="1" target="_blank">Add your event</div>
 
                         <!-- <p class="ae-2 margin-bottom-3"><span class="opacity-8">Shop deals on amazing live events nesr you.</span></p> -->
                     </div>
                     <div class="ae-3 fix-12-12">
                         <div class="frame-97 ae-3 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Авг</span><span class="number regular">19</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Aug</span><span class="number regular">19</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Blockchain Week</span>
-                                <span class="regular dislocation">Берлин, Германия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Berlin, Germany</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-3 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Авг</span><span class="number regular">24</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Aug</span><span class="number regular">24</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Blockchain Conference</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-3 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-5 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-5 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-5 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-5 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-5 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-5 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
                         <div class="frame-97 ae-5 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">26</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">26</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Moscow DeFi Meetup</span>
-                                <span class="regular dislocation">Москва, Россия</span>
-                                <a href="#" class="button white stroke button-buy-97">Билеты</a>
+                                <span class="regular dislocation">Moscow, Russia</span>
+                                <a href="#" class="button white stroke button-buy-97">Tickets</a>
                             </h2>
                         </div>
 <!--                         <div class="frame-97 ae-6 padding-bottom-3 margin-top-2">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">28</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">28</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">Lake Brennonchester</span>
                                 <span class="regular dislocation">Lake Marinaview</span>
@@ -447,7 +470,7 @@
                             </h2>
                         </div> -->
 <!--                         <div class="frame-97 ae-7 padding-bottom-3 margin-top-2 opacity-6">
-                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Сен</span><span class="number regular">30</span></p>
+                            <p class="white calendar-97 absolute"><span class="center uppercase block bold month">Sep</span><span class="number regular">30</span></p>
                             <h2 class="small align-left cropBottom inline-block padding-top-1">
                                 <span class="light margin-left-10 margin-left-phablet-0 title-group">West Keaganstad</span>
                                 <span class="regular dislocation">South Austen</span>
