@@ -26,3 +26,4 @@ window.disableOnSwipe = 1;
               player.api('setVolume', 0);
             });
         });
+
